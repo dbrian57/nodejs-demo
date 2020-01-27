@@ -1,12 +1,12 @@
 ###############################################################################
 #
 #   App Sail Pipelines
-#   
+#
 #   CLI Version:        0.0.17
-#   Pipeline Service:   GitHub Actions 
+#   Pipeline Service:   GitHub Actions
 #   App Name:           nodejs-demo
 #   Deployment:         default
-#   Team:               
+#   Team:
 #
 #   Documentation:      https://appsail.digitalocean.com/docs/pipelines
 #
@@ -49,9 +49,9 @@ jobs:
     - name: Deploy App to AppSail
       uses: digitalocean-appsail/action@master
       with:
-        auth_token: ${{ secrets.APPSAIL_TOKEN }}
+        auth_token: ef658dd0dc0b72f89b1456abd9bd75aeba6c5b76
         app_name: nodejs-demo
         app_deployment: default
-        app_team: 
+        app_team:
 
 # EOF
